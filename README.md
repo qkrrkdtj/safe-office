@@ -25,15 +25,15 @@ YOLO 기반의 실시간 객체 감지로 인가된 사용자를 인식하고, S
 ## 플로우차트
 
 ![System Architecture](./docs/images/flow1.png)
-<hr style="height:1px; border:none; background-color:#e5e5e5;">
+
 ![System Architecture](./docs/images/flow2.png)
-<hr style="height:1px; border:none; background-color:#e5e5e5;">
+
 ![System Architecture](./docs/images/flow3.png)
-<hr style="height:1px; border:none; background-color:#e5e5e5;">
+
 ![System Architecture](./docs/images/flow_idle.png)
-<hr style="height:1px; border:none; background-color:#e5e5e5;">
+
 ![System Architecture](./docs/images/flow_door.png)
-<hr style="height:1px; border:none; background-color:#e5e5e5;">
+
 ![System Architecture](./docs/images/flow_em.png)
 
 ---
