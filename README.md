@@ -46,6 +46,13 @@ YOLO 기반의 실시간 객체 감지로 인가된 사용자를 인식하고, S
 
 ---
 
+##  📷  프로토타입 사진
+
+![실물사진](docs/images/실물사진.png)
+
+---
+
+
 ## 🔌 회로도
 
 ![System Architecture](./docs/images/system.png)
