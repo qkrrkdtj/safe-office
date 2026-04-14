@@ -210,4 +210,4 @@ https://youtu.be/J2NhM7mqCp0
 이 프로젝트는 [MIT License](LICENSE) 하에 배포됩니다.
 
 
-**최종 업데이트**: 2026년 4월
+**최종 업데이트**: 2026년 4월 14일 
