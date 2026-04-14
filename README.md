@@ -39,6 +39,13 @@ YOLO 기반의 실시간 객체 감지로 인가된 사용자를 인식하고, S
 
 ---
 
+## 🧠 시스템 구성도
+
+![시스템 구성도](docs/imgs/시스템구성도.png)
+
+
+---
+
 ## 회로도
 
 ![System Architecture](./docs/images/system.png)
