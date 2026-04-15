@@ -198,6 +198,38 @@ MODEL_PATH = "best.pt"  # YOLOv8 가중치 파일
 
 https://youtu.be/J2NhM7mqCp0
 
+---
+
+## ⚠️ 문제 해결 과정 (Trouble Shooting)
+
+### 🚦 신호등을 사람으로 잘못 인식하는 문제
+
+<p>
+<img src="img/신호등트러블슈팅.png" width="300"/>
+<img src="img/신호등트러블슈팅해결.png" width="300"/>
+</p>
+
+- **문제:** 빨간 사람 학습 후 신호등의 빨간 신호를 person클래스로 오탐  
+- **해결:** 특정 ROI 영역 안의 person 감지를 continue하여 오탐 방지  
+
+### 🚗  car클래스를 밤에 인식하지 못하는 문제
+
+<p>
+<img src="img/car트러블슈팅.png" width="300"/>
+<img src="img/car트러블슈팅해결.png" width="300"/>
+</p>
+
+- **문제:** 낮과 밤을 묶어 vehicle 클래스를 학습시킨 결과 밤에 vehicle 클래스를 인식하지 못함  
+- **해결:** 낮과 밤을 클래스로 나눠 학습하여 해결 → vehicle, carnigh 클래스로 분류  
+
+### 🚶  사람을 인식하지 못하는 문제
+
+<p>
+<img src="img/욜로모델변경, 파일변경.png" width="800"/>
+</p>
+
+- **문제:** 카메라 2대를 사용하기 때문에 카메라 속도 유지를 위해 YOLO5n을 사용하자 인식하지 못함  
+- **해결:** YOLO8s로 학습하여 인식못하는 문제를 해결하고 학습완료된 best.pt 파일을 best.onnx 파일로 교체하여 속도문제를 해결
 
 
 ---
